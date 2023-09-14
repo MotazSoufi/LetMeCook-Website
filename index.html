@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Let Me Cook</title>
+        <meta charset="utf-8">
+
+        <!--the 3 lines under is just for adding a new font from google fonts called heebo-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
+
+        <link rel= "stylesheet" href= "CSSfiles/main.css">
+
+        <script src="JSfiles/main.js"></script>
+    </head>
+
+    <body>
+
+        <!--==================================   LOGO AND OPTIONS   =========================================-->
+        <!--the id=top is used so that the arrow at the bottom of the page will bring you back up to this point of the page-->
+        <table id="top" cellpadding="20">
+            <tr>
+                <td>
+                    <a href="index.html"><img src="Images/logo2.png" height="175" alt="logo"></a>
+                </td>
+
+                <td>
+                    <table width="100%" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td>
+                                <table cellspacing="10" style="margin-left:250px;">
+                                    <tr>
+                                        <td class="option1"><a class="pchange" href="recipes.html">RECIPES</a></td>
+                                        <td class="option23"><a class="pchange" href="ingredients.html">INGREDIENTS</a></td>
+                                        <td class="option23"><a class="pchange" href="contactus.html">CONTACT US</a></td>
+                                        <td class="option4"><a class="pchange" href="aboutus.html">ABOUT US</a></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>  
+                </td>
+            </tr>
+        </table>     
+
+        <!--==================================   MAIN PAGE INTRO   =========================================-->
+
+        <!--all of these elements have position absolute so they can be placed anywhere-->
+        <!--we first put a table so we can have an empty space in the page-->
+        <!--the first elements will be in the back layer while the elements at the end will be placed in the front-->
+        <!--we use top, left, etc to add padding and position these elements-->
+        <table height="430"></table>
+
+        <img src="Images/main.png" class="mainPic">
+
+        <video autoplay muted loop class="cookies">
+            <source src="Videos/cookies.mp4" type="video/mp4">
+        </video>
+
+
+        <img src="Images/leaves2.png" class="leaves2">
+
+        <img src="Images/leaves5.png" class="leaves5">
+
+        <video autoplay muted loop class="carrot">
+            <source src="Videos/carrots.mp4" type="video/mp4">
+        </video>
+
+        <img src="Images/leaves1.png" class="leaves1">
+
+        <video autoplay muted loop class="vid1">
+            <source src="Videos/fav.mp4" type="video/mp4">
+        </video>
+
+        <img src="Images/square.png" class="square">
+                    
+
+        <video autoplay muted loop class="vid2">
+            <source src="Videos/flav.mp4" type="video/mp4">
+        </video>
+                    
+        <table class="buttonMain">
+            <tr align="center">
+                <td><a href="recipes.html"><img class="change" src="Images/button1.png" width="150"></a></td>
+            </tr>
+        </table>
+    
+        <!--==================================   OUR PURPOSE SECTION   =========================================-->
+
+        <table cellspacing="0" cellpadding="0" class="purposeTable">
+            <tr>
+                <!--the paper ripped transition at the top-->
+                <td colspan="2">
+                    <img width="100%" src="Images/rip.png">
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2">
+                    <video width="400" autoplay muted loop style="padding-left:30px; border-radius:70px;">
+                        <source src="Videos/pie.mp4" type="video/mp4">
+                    </video>
+                </td>
+                <th style="padding-top:70px;"><img src="Images/purpose.png" height="80"></th>
+            </tr>
+            <tr>
+                <td class="purposeText">
+                    We are dedicated to helping our users achieve their health and fitness objectives by providing them with
+                    the necessary tools to plan and manage their meals. Our meal planning tool enables users to set their goals and preferences
+                    and plan the number of calories they should consume each day.
+                    <br>
+                    <br>
+                    Moreover, we offer a wide variety of delicious and nutritious recipes that cater to different dietary needs and preferences.
+                    Whether you are looking for low-carb, high-protein, vegetarian, or gluten-free options, we have got you covered. Our recipes 
+                    are carefully crafted to ensure that they are both healthy and satisfying, making it easier for you to stick to your meal 
+                    plan and achieve your fitness goals.
+                </td>
+            </tr>
+        </table>
+
+        <img width="100%" src="Images/ripr.png">
+
+        <!--========================================== The random recipe generator ============================================-->
+
+
+        <table style="background-image:url(Images/randomBG.png); height:700px; width:100%; background-size:cover; ">
+        <tr>
+            <td></td>
+        </tr>
+        </table>    
+
+        <table class="buttonFood">
+            <tr align="center">
+                
+                <td><input type="image" src="Images/foodButton.png" id="button1" width="150" class="change"></td>
+            </tr>
+        </table>
+
+        <table class="buttonDrink">
+            <tr align="center">
+                <td><input type="image" src="Images/drinksButton.png" id="button2" width="150" class="change"></td>
+            </tr>
+        </table>
+
+        <img id="recipe1" src="Images/questionMark.png" height="550" style="position:absolute; top:1720px; right:100px;">
+
+        <!--======================================== How to use our website section ==============================================-->
+
+        <table class="steps">
+            <tr align="center">
+                <td>
+                    <img src="Images/plan.png" width="150">
+                    <br>
+                    <p class="stepHeading">PLAN</p>
+                    <br>
+                    <div class="stepText">
+                        Explore our various cooking and <br>
+                         baking recipes to organize your <br>
+                         meal schedule of this week
+                    </div>
+                    <br>
+                    <a href="desserts.html#schedule"><img src="Images/scheduleButton.png" width="150"></a>
+                </td>
+                <td>
+                    <img src="Images/cook.png" width="150">
+                    <br>
+                    <p class="stepHeading">COOK</p>
+                    <br>
+                    <div class="stepText">
+                        Follow our recipes by acquiring<br>
+                        the needed ingredients to make <br>
+                        your favorite foods
+                    </div>
+                    <br>
+                    <a href="recipes.html"><img src="Images/recipeButton.png" width="150"></a>
+                </td>
+                <td>
+                    <img src="Images/savor.png" width="150">
+                    <br>
+                    <p class="stepHeading">SAVOR</p>
+                    <br>
+                    <div class="stepText">
+                        Show the other users how its<br>
+                        done on social media and do<br>
+                        not forget to tag us &#128151
+                    </div>
+                    <br>
+                    <img src="Images/followUsButton.png" width="150">
+                </td>
+            </tr>
+        </table>
+
+
+        <!--====================================  THE FOOTER OF THE PAGES  ==============================================-->
+        <table height="400" align="center" style="padding-left:450px;">
+            <tr>
+                <td style="padding-left:190px; padding-top:20px;">
+                    <img src="Images/logo2.png" height="150">
+                </td>
+            </tr>
+
+            <tr class="rightsText">
+                <td align="center">
+                    Let Me Cook Homemade Recipes <br>
+                    COPYRIGHT &copy; Let Me Cook CO., LTD. All rights reserved. <br>
+                    All trademarks referenced herein are the properties of their respective owners.
+                </td>
+            </tr>
+
+            <tr>
+                <td class="socialMedia">
+                    <img style="padding-right:10px;" src="Images/facebook.png" width="50" height="50">
+                    <img style="padding-right:10px;" src="Images/instagram.png" width="50" height="50">
+                    <img style="padding-right:10px;" src="Images/youtube.png" width="50" height="50"> 
+                </td>
+                <td>
+                    <a href="index.html#top"><img style="padding-left:300px" src="Images/arrow.png" width="100"></a>
+                </td>
+            </tr>
+        </table>
+
+        <a href="contactus.html"><img class="popup" src="Images/buyme.png"></a>
+        
+    </body>
+</html>
