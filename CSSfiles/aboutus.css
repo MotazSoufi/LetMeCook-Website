@@ -1,0 +1,57 @@
+
+a.same {
+    text-decoration: none; 
+    color:#F3A384;
+}
+
+a.pchange {
+    text-decoration: none;
+    color:#FCE5DC;
+}
+
+a:hover {
+    color:#F3A384;
+}
+
+.socialMedia {
+    padding-left:190px; 
+    padding-bottom:70px; 
+    padding-top:20px;
+}
+
+.rightsText {
+    font-family: heebo; 
+    color:white; 
+    font-size:16px;
+}
+
+body {
+    margin:0;
+    background-color: #2A4039;
+}
+
+.option1 {
+    border-style:none solid none none; 
+    border-color:#F3A384;
+    padding-right:30px; 
+    letter-spacing:4px; 
+    font-family:heebo; 
+    font-size:20px;
+}
+
+.option23 {
+    letter-spacing:4px; 
+    font-family:heebo; 
+    font-size:20px;
+    padding-left:30px; 
+    border-style:none solid none none; 
+    border-color:#F3A384;
+    padding-right:30px;    
+}
+
+.option4 {
+    padding-left:30px; 
+    letter-spacing:4px; 
+    font-family:heebo; 
+    font-size:20px; 
+}

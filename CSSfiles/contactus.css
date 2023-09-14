@@ -1,0 +1,182 @@
+a.pchange {
+    text-decoration: none; color:#FCE5DC;
+}
+
+a.same {text-decoration: none; color:#F3A384;}
+
+a.pchange {text-decoration: none; color:#FCE5DC;}
+
+a:hover {color:#F3A384; }
+
+div {
+    color:white; font-family:heebo; line-height:30px;
+}
+
+.change:hover {
+    width: 200px;
+}
+
+body {
+    margin:0;
+    background-color: #2A4039;
+}
+
+.option1 {
+    border-style:none solid none none; 
+    border-color:#F3A384;
+    padding-right:30px; 
+    letter-spacing:4px; 
+    font-family:heebo; 
+    font-size:20px;
+}
+
+.option23 {
+    letter-spacing:4px; 
+    font-family:heebo; 
+    font-size:20px;
+    padding-left:30px; 
+    border-style:none solid none none; 
+    border-color:#F3A384;
+    padding-right:30px;    
+}
+
+.option4 {
+    padding-left:30px; 
+    letter-spacing:4px; 
+    font-family:heebo; 
+    font-size:20px; 
+}
+
+.socialMedia {
+    padding-left:190px; 
+    padding-bottom:70px; 
+    padding-top:20px;
+}
+
+.rightsText {
+    font-family: heebo; 
+    color:white; 
+    font-size:16px;
+}
+
+.button:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+
+.button {
+    top:1525px; 
+    right:634px; 
+    position: absolute; 
+    border-radius: 10px; 
+    width:250px; 
+    height:40px;
+}
+
+.pattern3 {
+    top:1300px; 
+    right:130px; 
+    position: absolute; 
+    border-radius:20px; 
+    width:250px;
+}
+
+.leaves6 {
+    top:1060px; 
+    right:1250px; 
+    position: absolute; 
+    border-radius:20px; 
+    width:100px;
+}
+
+.flower2 {
+    top:1100px; 
+    right:50px; 
+    position: absolute; 
+    border-radius:20px; 
+    width:150px;
+}
+
+.lemon {
+    top:1125px; 
+    right:180px; 
+    position: absolute; 
+    border-radius:20px; 
+    width:300px;
+}
+
+.pattern5 {
+    top:1180px; 
+    right:1060px; 
+    position: absolute; 
+    border-radius:20px; 
+    width:200px;
+}
+
+.peach {
+    top:1225px; 
+    right:1100px; 
+    position: absolute; 
+    border-radius:20px; 
+    width:290px;
+}
+
+.libraryName {
+    color:#2A4039; 
+    font-family:heebo; 
+    font-size:20px;
+}
+
+.signInHeading {
+    font-size:20px; 
+    color:#F3A384; 
+    font-family:heebo; 
+    width:100%;
+}
+
+.buttonBG1 {
+    top:1390px; 
+    right:634px; 
+    position: absolute; 
+    background-color: #F3A384; 
+    border-radius: 10px; 
+    width:250px; 
+    height:40px;
+}
+
+.button1Text {
+    font-family:heebo; 
+    font-weight:bold; 
+    color:white; 
+    font-size:16px; 
+    position:absolute; 
+    top:1395px; 
+    right:730px;
+}
+
+.buttonBG2 {
+    top:1525px; 
+    right:634px; 
+    position: absolute; 
+    background-color: #F3A384; 
+    border-radius: 10px; 
+    width:250px; 
+    height:40px;
+}
+
+.button2Text {
+    font-family:heebo; 
+    font-weight:bold; 
+    color:white; 
+    font-size:16px; 
+    position:absolute;
+    top:1529px; 
+    right:690px;
+}
+
+.textField {
+    border-radius: 6px;
+    background-color: #FCE5DC;
+    height:20px;
+    font-size:15px;
+    font-family:heebo;
+}

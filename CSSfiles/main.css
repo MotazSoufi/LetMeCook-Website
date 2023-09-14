@@ -1,0 +1,207 @@
+a.pchange {
+    text-decoration: none; color:#FCE5DC;
+}
+
+a:hover {
+    color:#F3A384;
+}
+
+div {
+    color:white; font-family:heebo; line-height:30px;
+}
+
+.change:hover {
+    width: 200px;
+}
+
+body {
+    margin:0;
+    background-color: #2A4039;
+}
+
+.option1 {
+    border-style:none solid none none; 
+    border-color:#F3A384;
+    padding-right:30px; 
+    letter-spacing:4px; 
+    font-family:heebo; 
+    font-size:20px;
+}
+
+.option23 {
+    letter-spacing:4px; 
+    font-family:heebo; 
+    font-size:20px;
+    padding-left:30px; 
+    border-style:none solid none none; 
+    border-color:#F3A384;
+    padding-right:30px;    
+}
+
+.option4 {
+    padding-left:30px; 
+    letter-spacing:4px; 
+    font-family:heebo; 
+    font-size:20px; 
+}
+
+.mainPic {
+    top:220px; 
+    left:450px; 
+    border-radius:70px; 
+    position: absolute;
+    width:600px;
+}
+
+.cookies {
+    top:230px; 
+    left:70px; 
+    border-radius:70px; 
+    position: absolute; 
+    width:250px; 
+    height:250px;
+}
+
+.leaves2 {
+    top:170px; 
+    left:290px; 
+    border-radius:70px; 
+    position: absolute; 
+    width:150px;
+}
+
+.leaves5 {
+    top:450px; 
+    left:40px; 
+    border-radius:70px; 
+    position: absolute; 
+    width:190px;
+}
+
+.carrot {
+    top:370px; 
+    left:190px; 
+    border-radius:70px; 
+    position: absolute; 
+    width:250px; 
+    height:250px;
+}
+
+.leaves1 {
+    bottom:390px; 
+    left:1100px; 
+    border-radius:70px; 
+    position: absolute; 
+    width:190px;
+}
+
+.vid1 {
+    top:290px; 
+    left:1050px; 
+    border-radius:70px; 
+    position: absolute; 
+    width:400px; 
+    height:400px;
+}
+
+.square {
+    bottom:290px; 
+    left:1240px; 
+    border-radius:70px; 
+    position:absolute; 
+    border-radius:70px; 
+    width:250px;
+}
+
+.vid2 {
+    bottom:300px; 
+    left:1250px; 
+    border-radius:70px; 
+    position: absolute; 
+    width:250px; 
+    height:250px;
+}
+
+.buttonMain {
+    height:300px; 
+    width:300px; 
+    position:absolute; 
+    left:600px; 
+    top:480px;
+}
+
+.buttonFood {
+    height:300px; 
+    width:300px; 
+    position:absolute; 
+    left:250px; 
+    top:2080px;
+}
+
+.buttonDrink {
+    height:300px; 
+    width:300px; 
+    position:absolute; 
+    left:450px; 
+    top:2080px;
+}
+
+.purposeTable {
+    background-image:url(../Images/bg1.png);
+    background-size:cover; 
+    margin:0px;
+}
+
+.purposeText {
+    text-align:justify; 
+    padding-left:200px; 
+    padding-right:200px; 
+    font-size:23px; 
+    font-family:bell mt;
+    color:#2A4039;
+}
+
+.rightsText {
+    font-family: heebo; 
+    color:white; 
+    font-size:16px;
+}
+
+.popup {
+    position:fixed;
+    width:200px;
+    left:30px;
+    bottom:-400px;
+    border-radius:20px;
+}
+
+.popup:hover {
+    bottom:-100px;
+}
+
+.socialMedia {
+    padding-left:190px; 
+    padding-bottom:70px; 
+    padding-top:20px;
+}
+
+.stepText {
+    color:#FCE5DC;
+    font-size:18px;
+}
+
+.steps {
+    background-image:url(../Images/image3.png); 
+    background-size:cover; 
+    height:850px; 
+    width:100%; 
+    padding-bottom:150px;
+}
+
+.stepHeading {
+    font-family:heebo; 
+    font-size:30px; 
+    color:#F3A384; 
+    font-weight:900; 
+    letter-spacing:5px
+}

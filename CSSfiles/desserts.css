@@ -1,0 +1,131 @@
+body {
+    margin:0;
+    background-color: #2A4039;
+}
+
+.option1 {
+    border-style:none solid none none; 
+    border-color:#F3A384;
+    padding-right:30px; 
+    letter-spacing:4px; 
+    font-family:heebo; 
+    font-size:20px;
+}
+
+.option23 {
+    letter-spacing:4px; 
+    font-family:heebo; 
+    font-size:20px;
+    padding-left:30px; 
+    border-style:none solid none none; 
+    border-color:#F3A384;
+    padding-right:30px;    
+}
+
+.option4 {
+    padding-left:30px; 
+    letter-spacing:4px; 
+    font-family:heebo; 
+    font-size:20px; 
+}
+
+.rightsText {
+    font-family: heebo; 
+    color:white; 
+    font-size:16px;
+}
+
+a.same {
+    text-decoration: none; 
+    color:#F3A384;
+}
+
+a.pchange {
+    text-decoration: none; 
+    color:#FCE5DC;
+}
+
+a:hover {
+    color:#F3A384; 
+}
+
+div {
+    color:white; 
+    font-family:heebo; 
+    line-height:30px;
+}
+
+.imgBorder:hover {
+    background-color: #F3A384;
+}
+
+.socialMedia {
+    padding-left:190px; 
+    padding-bottom:70px; 
+    padding-top:20px;
+}
+
+.cellRecipe {
+    background-color:#FCE5DC;
+    font-family:heebo;
+    border-style: none none solid none;
+    border-color:#F3A384;
+}
+
+.result {
+    font-family:heebo;
+    font-size:45px;
+    color:#F3A384;
+    position:absolute; 
+    right:630px; 
+    top:2945px;
+}
+
+.dropOption {
+    font-family:heebo;
+    color:#F3A384;
+    font-size:20px;
+}
+
+.ripTop {
+    position:absolute; 
+    left:0px; 
+    bottom:500px; 
+    width:1519px;
+}
+
+.ripBottom {
+    position:absolute; 
+    left:0px; 
+    bottom:0px; 
+    width:1519px;
+}
+
+.dessertBG {
+    background-image:url(../Images/dessertbg.png); 
+    background-attachment: fixed; 
+    width:100%; 
+    height:650px;
+}
+
+.iconTable {
+    padding-left:60px; 
+    height:100px; 
+    width:100%;
+}
+
+.tableHeadings {
+    background-color: #F3A384; 
+    font-family:heebo; 
+    font-size:22px; 
+    color:#2A4039
+}
+
+.options {
+    background-color: #FCE5DC; 
+    font-family: heebo; 
+    font-size:16px; 
+    color:#2A4039; 
+    border-radius: 10px;
+    width:180px;
+}

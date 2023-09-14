@@ -1,0 +1,145 @@
+.socialMedia {
+    padding-left:190px; 
+    padding-bottom:70px; 
+    padding-top:20px;
+}
+
+.rightsText {
+    font-family: heebo; 
+    color:white; 
+    font-size:16px;
+}
+
+a.same {
+    text-decoration: none; 
+    color:#F3A384;
+}
+
+a.pchange {text-decoration: none; 
+    color:#FCE5DC;
+}
+
+a:hover {
+    color:#F3A384; 
+}
+
+
+body {
+    margin:0;
+    background-color: #2A4039;
+}
+
+.option1 {
+    border-style:none solid none none; 
+    border-color:#F3A384;
+    padding-right:30px; 
+    letter-spacing:4px; 
+    font-family:heebo; 
+    font-size:20px;
+}
+
+.option23 {
+    letter-spacing:4px; 
+    font-family:heebo; 
+    font-size:20px;
+    padding-left:30px; 
+    border-style:none solid none none; 
+    border-color:#F3A384;
+    padding-right:30px;    
+}
+
+.option4 {
+    padding-left:30px; 
+    letter-spacing:4px; 
+    font-family:heebo; 
+    font-size:20px; 
+}
+
+.column {
+    font-family:heebo; 
+    font-size:20px; 
+    color:#2A4039; 
+    font-weight:600
+}
+
+.imgBorder:hover {
+    background-color: #F3A384;
+}
+
+.popup {
+    position:fixed;
+    width:200px;
+    right:10px;
+    bottom:10px;
+    border-radius:20px;
+}
+
+.popup:hover {
+    width:600px;
+}
+
+.table1 {
+    background-color:#2A4039; 
+    border-radius:40px; 
+    height:250px; 
+    width:250px; 
+    position:absolute; 
+    left:1150px; 
+    top:1000px;
+}
+
+.tableH {
+    letter-spacing:4px; 
+    color:#F3A384; 
+    font-family:heebo; 
+    font-size:18px; 
+    padding-left:20px;
+}
+
+.texts {
+    color:#FCE5DC; 
+    font-family:heebo; 
+    font-size:18px; 
+    padding-left:20px
+}
+
+.table2 {
+    background-color:#2A4039; 
+    border-radius:40px; 
+    height:250px; 
+    width:250px; 
+    position:absolute; 
+    left:1150px; 
+    top:1300px;
+}
+
+.tableH2 {
+    letter-spacing:6px; 
+    color:#F3A384; 
+    font-family:heebo; 
+    font-size:24px; 
+    padding-left:20px;
+}
+
+.texts2 {
+    color:#FCE5DC; 
+    font-family:heebo; 
+    font-size:18px; 
+    line-height:30px;
+}
+
+.ing1 {
+    font-family:heebo; 
+    font-size:17px; 
+    color:#2A4039; 
+    padding-left:220px; 
+    padding-top:30px;
+}
+
+.ing2 {
+    font-family:heebo; 
+    font-size:17px; 
+    color:#2A4039; 
+    line-height:33px; 
+    padding-right:500px;
+}

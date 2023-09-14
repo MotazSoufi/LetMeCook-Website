@@ -1,0 +1,264 @@
+body {
+    margin:0;
+    background-color: #2A4039;
+}
+
+.option1 {
+    border-style:none solid none none; 
+    border-color:#F3A384;
+    padding-right:30px; 
+    letter-spacing:4px; 
+    font-family:heebo; 
+    font-size:20px;
+}
+
+.option23 {
+    letter-spacing:4px; 
+    font-family:heebo; 
+    font-size:20px;
+    padding-left:30px; 
+    border-style:none solid none none; 
+    border-color:#F3A384;
+    padding-right:30px;    
+}
+
+.option4 {
+    padding-left:30px; 
+    letter-spacing:4px; 
+    font-family:heebo; 
+    font-size:20px; 
+}
+
+.gif1 {
+    width: 300px;
+    height: 300px;
+    background-image: url('../Images/GIFs/onion.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius:40px;
+    position:absolute; 
+    top:850px; 
+    left:50px;
+}
+
+.gif1:hover {
+    background-image: url('../Images/GIFs/onion.gif');
+}
+
+.gif1m {
+    position:absolute; 
+    top:1050px; 
+    left:230px;
+}
+
+.gif2 {
+    width: 300px;
+    height: 300px;
+    background-image: url('../Images/GIFs/eggs.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius:40px;
+    position:absolute; 
+    top:850px; 
+    left:419px;
+}
+
+.gif2:hover {
+    background-image: url('../Images/GIFs/eggs.gif');
+}
+
+.gif2m {
+    position:absolute; 
+    top:1050px; 
+    left:600px;
+}
+
+.gif3 {
+    width: 300px;
+    height: 300px;
+    background-image: url('../Images/GIFs/butter.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius:40px;
+    position:absolute; 
+    top:850px; 
+    right:419px;
+}
+
+.gif3:hover {
+    background-image: url('../Images/GIFs/butter.gif');
+}
+
+.gif3m {
+    position:absolute; 
+    top:1050px; 
+    right:370px;
+}
+
+.gif4 {
+    width: 300px;
+    height: 300px;
+    background-image: url('../Images/GIFs/lemon.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius:40px;
+    position:absolute; 
+    top:850px; 
+    right:50px;
+}
+
+.gif4:hover {
+    background-image: url('../Images/GIFs/lemon.gif');
+}
+
+.gif4m {
+    position:absolute; 
+    top:1050px; 
+    right:10px;
+}
+
+.gif5 {
+    width: 300px;
+    height: 300px;
+    background-image: url('../Images/GIFs/chili.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius:40px;
+    position:absolute; 
+    top:1200px; 
+    right:50px;
+}
+
+.gif5:hover {
+    background-image: url('../Images/GIFs/chili.gif');
+}
+
+.gif5m {
+    position:absolute; 
+    top:1400px; 
+    right:10px;
+}
+
+.gif6 {
+    width: 300px;
+    height: 300px;
+    background-image: url('../Images/GIFs/bread.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius:40px;
+    position:absolute; 
+    top:1200px; 
+    left:50px;
+}
+
+.gif6:hover {
+    background-image: url('../Images/GIFs/bread.gif');
+}
+
+.gif6m {
+    position:absolute; 
+    top:1400px; 
+    left:230px;
+}
+
+.gif7 {
+    width: 300px;
+    height: 300px;
+    background-image: url('../Images/GIFs/lettuce.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius:40px;
+    position:absolute; 
+    top:1200px; 
+    left:419px;
+}
+
+.gif7:hover:hover {
+    background-image: url('../Images/GIFs/lettuce.gif');
+}
+
+.gif7m {
+    position:absolute; 
+    top:1400px; 
+    left:600px;
+}
+
+.gif8 {
+    width: 300px;
+    height: 300px;
+    background-image: url('../Images/GIFs/choco.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius:40px;
+    position:absolute; 
+    top:1200px; 
+    right:419px;
+}
+
+.gif8:hover:hover {
+    background-image: url('../Images/GIFs/choco.gif');
+}
+
+.gif8m {
+    position:absolute; 
+    top:1400px; 
+    right:370px;
+}
+
+a.same {text-decoration: none; color:#F3A384;}
+
+a.pchange {text-decoration: none; color:#FCE5DC;}
+
+a:hover {color:#F3A384; }
+
+nav {
+    color:#FCE5DC;
+    line-height: 30px;
+    font-size:15px; 
+    font-family:heebo;
+}
+
+nav ul {display: none;
+    list-style:none;   
+    width:140px;  
+    padding:20px;
+}
+
+nav:hover ul {
+    display:block;
+    border-radius:30px;
+    background-color:#2A4039;
+}
+
+strong {
+    letter-spacing: 5px;
+    font-size:22px;
+    color:#F3A384;
+}
+
+.mark {
+    color:#F3A384;
+    text-decoration: underline;
+}
+
+.rightsText {
+    font-family: heebo; 
+    color:white; 
+    font-size:16px;
+}
+
+.socialMedia {
+    padding-left:190px; 
+    padding-bottom:70px; 
+    padding-top:20px;
+}
+
+
