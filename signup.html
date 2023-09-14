@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Sign Up</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="CSSfiles/signup.css">
+
+        <script>
+            
+            function myfunction(){
+
+                var r1 = document.getElementById("checkmark"); 
+                var r2 = document.getElementById("confirm"); 
+                var first = document.getElementById("firstName").value; 
+                var email = document.getElementById("email").value; 
+
+                r1.setAttribute("src","Images/GIFs/checkmark.gif");
+                r2.setAttribute("src","Images/pink.png");
+
+                document.getElementById("nameOutput").innerHTML = "Thank you for joining us " + first + "!!!";
+                document.getElementById("emailOutput").innerHTML = "We sent you the verification email at " + email;
+
+            }
+
+        </script>
+    </head>
+
+    <body>
+        <table id="top" cellpadding="20">
+            <tr>
+                <td>
+                    <a href="index.html"><img src="Images/logo2.png" height="175" alt="logo"></a>
+                </td>
+
+                <td>
+                    <table width="100%" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td>
+                                <table cellspacing="10" style="margin-left:250px;">
+                                    <tr>
+                                        <!--I added the border style in this way so we can have a line seperating the options-->
+                                        <td class="option1"><a class="pchange" href="recipes.html">RECIPES</a></td>
+                                        <td class="option23"><a class="pchange" href="ingredients.html">INGREDIENTS</a></td>
+                                        <td class="option23"><a class="same" href="contactus.html">CONTACT US</a></td>
+                                        <td class="option4"><a class="pchange" href="aboutus.html">ABOUT US</a></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>  
+                </td>
+            </tr>
+        </table>  
+
+        <table height="670"></table>
+
+        <table class="signWindow">
+            
+            <tr>
+                <th colspan="2">
+                    <img src="Images/createAcc.png" width="250">
+                </th>
+            </tr>
+            <tr>
+                <td style="padding-left:20px;">
+                    <label class="labels">
+                        First Name* <br>
+                        <input type="text" id="firstName" class="textField">
+                    </label>
+                </td>
+
+                <td style="padding-left:20px;">
+                    <label class="labels">
+                        Last Name* <br>
+                        <input type="text" class="textField">
+                    </label>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" style="padding-left:20px;">
+                    <label class="labels">
+                        Email* <br>
+                        <input type="email" size="35" id="email" class="textField">
+                    </label>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" style="padding-left:20px;">
+                    <label class="labels">
+                        Password* <br>
+                        <input type="password" size="35" class="textField">
+                        <div style="font-size:10px;">Make your password at least 8 characters long.</div>
+                    </label>
+                </td>
+            </tr>
+            <tr height="50">
+                <td></td>
+            </tr>
+
+            <tr align="center">
+                <th colspan="2">
+                    <table cellspacing="10" style="font-family:heebo;">
+                        <tr>
+                            <td>
+                                <img src="Images/facebookB.png" width="100">
+                            </td>
+                            <td>
+                                <img src="Images/googleB.png" width="100">
+                            </td>
+                            <td>
+                                <img src="Images/twitterB.png" width="100">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center" colspan="3">
+                                Already have an account? <a class="signIn" href="contactus.html#signUp">Sign In</a>
+                            </td>
+                        </tr>
+                    </table>
+                </th>
+            </tr>
+        </table>
+
+
+        <table class="button1BG">
+            <tr>
+                <td></td>
+            </tr>
+        </table>
+
+
+        <div class="button1Text">
+            Create Account
+        </div>
+
+        <input type="image" src="Images/blank.png" class="button" onclick="myfunction()">
+
+        <!--TWITTER BUTTON-->
+        <table class="buttonT">
+            <tr>
+                <th></th>
+            </tr>
+        </table>
+
+        <!--GOOGLE BUTTON-->
+        <table class="buttonG">
+            <tr>
+                <th></th>
+            </tr>
+        </table>
+
+        <!--FACEBOOK BUTTON-->
+        <table class="buttonF">
+            <tr>
+                <th></th>
+            </tr>
+        </table>    
+
+        <img src="Images/pattern7.png" class="pattern7">
+
+        <img src="Images/flower2.png" class="flower2">
+
+        <img src="Images/leaves2.png" class="leaves2">
+
+        <img src="Images/flower1.png" class="flower1">
+
+        <img src="Images/pattern5.png" class="pattern5">
+
+        <img src="Images/sandwich.gif" class="sandwich" id="checkmark">
+
+        <img src="Images/icecream.gif" class="icecream" id="confirm">
+
+        <table class="displayOutput">
+            <tr>
+                <td>
+                    <strong id="nameOutput"></strong><br>
+                    <strong id="emailOutput"></strong>
+                </td>
+            </tr>
+        </table>
+        
+        <div style="font-family:heebo; color:rgba(255,255,255,0.5); padding-left:30px; padding-bottom:10px;">
+            COPYRIGHT &copy; Let Me Cook CO., LTD. All rights reserved. <br>
+            All trademarks referenced herein are the properties of their respective owners.
+        </div>
+        
+    </body>
+</html>
